@@ -14,7 +14,7 @@ This module is responsible for the digital management of hospital bed inventory 
 
 | Member Name | Primary Responsibility | Assigned Tasks (Examples) | GitHub Profile |
 | :--- | :--- | :--- | :--- |
-| **Sami Tolaimat** | Integration & UI|UX | Component Diagrams, API Specs, Team Coordination , wireframes | [GitHub account](https://github.com/MSamiTolaimat) |
+| **Sami Tolaimat** | Integration & UI&UX | Component Diagrams, API Specs, Team Coordination , wireframes | [GitHub account](https://github.com/MSamiTolaimat) |
 | **Mahmoud Al-shebly** | Interaction Design | Sequence Diagrams, Logic Flow | [GitHub account](https://github.com/MahmoudShbly) |
 | **Mohammed Nasef** | Requirements & Analysis | Functional Requirements, Use Case Diagrams  |  [GitHub account](https://github.com/MOHAMED13572) |
 | **Saleh Al-Sapooh** | Process Modeling | Activity Diagrams, Business Rules Validation | [GitHub account](https://github.com/mohmmadss2004) |
