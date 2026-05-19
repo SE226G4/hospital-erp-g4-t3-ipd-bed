@@ -1,0 +1,15 @@
+C:\Users\DELL\Documents\hospital-erp-g4-t3-ipd-bed\HospitalSystem\obj\Debug\net8.0\HospitalSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\hospital-erp-g4-t3-ipd-bed\HospitalSystem\obj\Debug\net8.0\HospitalSystem.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\hospital-erp-g4-t3-ipd-bed\HospitalSystem\obj\Debug\net8.0\HospitalSystem.AssemblyInfo.cs
+C:\Users\DELL\Documents\hospital-erp-g4-t3-ipd-bed\HospitalSystem\obj\Debug\net8.0\HospitalSystem.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\hospital-erp-g4-t3-ipd-bed\HospitalSystem\obj\Debug\net8.0\HospitalSystem.sourcelink.json
+C:\Users\DELL\Documents\hospital-erp-g4-t3-ipd-bed\HospitalSystem\bin\Debug\net8.0\HospitalSystem.exe
+C:\Users\DELL\Documents\hospital-erp-g4-t3-ipd-bed\HospitalSystem\bin\Debug\net8.0\HospitalSystem.deps.json
+C:\Users\DELL\Documents\hospital-erp-g4-t3-ipd-bed\HospitalSystem\bin\Debug\net8.0\HospitalSystem.runtimeconfig.json
+C:\Users\DELL\Documents\hospital-erp-g4-t3-ipd-bed\HospitalSystem\bin\Debug\net8.0\HospitalSystem.dll
+C:\Users\DELL\Documents\hospital-erp-g4-t3-ipd-bed\HospitalSystem\bin\Debug\net8.0\HospitalSystem.pdb
+C:\Users\DELL\Documents\hospital-erp-g4-t3-ipd-bed\HospitalSystem\obj\Debug\net8.0\HospitalSystem.dll
+C:\Users\DELL\Documents\hospital-erp-g4-t3-ipd-bed\HospitalSystem\obj\Debug\net8.0\refint\HospitalSystem.dll
+C:\Users\DELL\Documents\hospital-erp-g4-t3-ipd-bed\HospitalSystem\obj\Debug\net8.0\HospitalSystem.pdb
+C:\Users\DELL\Documents\hospital-erp-g4-t3-ipd-bed\HospitalSystem\obj\Debug\net8.0\HospitalSystem.genruntimeconfig.cache
+C:\Users\DELL\Documents\hospital-erp-g4-t3-ipd-bed\HospitalSystem\obj\Debug\net8.0\ref\HospitalSystem.dll
