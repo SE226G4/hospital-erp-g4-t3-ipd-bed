@@ -1,0 +1,61 @@
+@startuml logic flow
+
+start
+
+:Receptionist submits\nadmission request;
+
+:Check bed availability;
+
+if (Bed Available?) then (Yes)
+
+    :Check room readiness;
+
+    if (Room Ready?) then (Yes)
+
+        :Assign patient to bed;
+
+        :Update bed status\nto Busy;
+
+        :Admission successful;
+
+    else (No)
+
+        :Cannot assign patient;
+        
+    endif
+
+else (No)
+
+    :Reject admission request;
+
+endif
+
+
+:Request patient transfer;
+
+:Check new bed availability;
+
+if (New Bed Available?) then (Yes)
+
+    :Set old bed status\nto Cleaning;
+
+    :Set new bed status\nto Busy;
+
+    :Transfer successful;
+
+else (No)
+
+    :Transfer rejected;
+
+endif
+
+
+:Send discharge notification\nto Finance System;
+
+:Set bed status\nto Cleaning;
+
+:Set bed status\nto Available;
+
+stop
+
+@enduml
