@@ -1,0 +1,44 @@
+@startuml sequence
+
+actor Receptionist
+
+participant "IPD-BED System" as System
+participant Bed
+participant Room
+participant "Finance System" as Finance
+
+== Patient Admission ==
+
+Receptionist -> System : Request Patient Admission
+
+System -> Bed : Check Bed Availability
+Bed --> System : Available
+
+System -> Room : Check Room Readiness
+Room --> System : Ready
+
+System -> Bed : Assign Patient To Bed
+System -> Bed : Update Status To Occupied
+
+System --> Receptionist : Admission Successful
+
+== Transfer Patient ==
+
+Receptionist -> System : Transfer Patient
+
+System -> Bed : Check New Bed Availability
+Bed --> System : Available
+
+System -> Room : Check New Room Readiness
+Room --> System : Ready
+
+System -> Bed : Set Old Bed To Cleaning
+System -> Bed : Set New Bed To Occupied
+
+System --> Receptionist : Transfer Successful
+
+== Discharge Notification ==
+
+System -> Finance : Send Discharge Notification
+
+@enduml
