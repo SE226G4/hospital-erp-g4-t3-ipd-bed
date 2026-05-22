@@ -1,60 +1,111 @@
-@startuml logic flow
+@startuml flow logic
 
 start
 
-:Receptionist submits\nadmission request;
+:Receptionist submits
+admission request;
 
 :Check bed availability;
 
 if (Bed Available?) then (Yes)
 
-    :Check room readiness;
+    :Check bed suitability;
 
-    if (Room Ready?) then (Yes)
+    if (Bed Suitable?) then (Yes)
 
-        :Assign patient to bed;
+        :Check room readiness;
 
-        :Update bed status\nto Busy;
+        if (Room Ready?) then (Yes)
 
-        :Admission successful;
+            :Assign patient to bed;
+
+            :Update bed status
+to Busy;
+
+            :Admission successful;
+
+        else (No)
+
+            :Room is not ready;
+
+            :Reject admission request;
+
+        endif
 
     else (No)
 
-        :Cannot assign patient;
-        
+        :Bed is not suitable
+for patient condition;
+
+        :Reject admission request;
+
     endif
 
 else (No)
+
+    :No available bed found;
 
     :Reject admission request;
 
 endif
 
 
-:Request patient transfer;
+:Receptionist requests
+patient transfer;
 
 :Check new bed availability;
 
 if (New Bed Available?) then (Yes)
 
-    :Set old bed status\nto Cleaning;
+    :Check new bed suitability;
 
-    :Set new bed status\nto Busy;
+    if (New Bed Suitable?) then (Yes)
 
-    :Transfer successful;
+        :Check new room readiness;
+
+        if (New Room Ready?) then (Yes)
+
+            :Set old bed status
+to Cleaning;
+
+            :Set new bed status
+to Busy;
+
+            :Transfer successful;
+
+        else (No)
+
+            :New room is not ready;
+
+            :Reject transfer request;
+
+        endif
+
+    else (No)
+
+        :New bed is not suitable;
+
+        :Reject transfer request;
+
+    endif
 
 else (No)
 
-    :Transfer rejected;
+    :New bed is not available;
+
+    :Reject transfer request;
 
 endif
 
 
-:Send discharge notification\nto Finance System;
+:Send discharge notification
+to Finance System;
 
-:Set bed status\nto Cleaning;
+:Set bed status
+to Cleaning;
 
-:Set bed status\nto Available;
+:Set bed status
+to Available;
 
 stop
 
