@@ -111,14 +111,43 @@ UI Layouts: A dashboard featuring a Grid/Map View of hospital wards. Wards are c
 *   **Priority:** High.
 *   **User Stories:**
     *   **Story 1:** 
-    As the IPD System, I want to send a discharge notification to the Finance module 24 hours in 
-    advance so that the billing department can prepare the final invoice.
+    As a receptionist, I want to view the status of each bed (occupied, available, cleaning) so that I can assign patients correctly.
     
         * *Acceptance Criteria:* 
-        An automated API call is triggered based on the "Expected Discharge Date"; Finance module 
-        receives a confirmation response.
+         - Interactive bed dashboard (list or cards Filter
+         -  by ward or bed type (ICU, regular, isolation).
+         -  Status updates in real-time when bed is occupied or released.
         
-        * *GitHub Issue:* #12
+        * *GitHub Issue:* #1, #2, #4, #5
+
+    *   **Story 2:** 
+    As a receptionist, I want to prevent admitting a patient if no suitable bed is available for their condition, to avoid overcrowding.
+    
+        * *Acceptance Criteria:*
+        - System checks bed availability before admission.
+        - Clear error message if no bed available.
+        - Depends on patient data from Admission Module
+        
+        * *GitHub Issue:* #1, #2, #3, #5
+
+    *   **Story 3:** 
+    As a nurse / bed coordinator, I want to prevent transferring a patient to another room unless the target room is "ready" , to ensure patient safety and hygiene.
+    
+        * *Acceptance Criteria:* 
+         - Bed status updates automatically after transfer.
+        
+        * *GitHub Issue:* #1, #2, #4, #5
+
+    *   **Story 4:** 
+    As a receptionist, I want to view the status of each bed (occupied, available, cleaning) so that I can assign patients correctly.
+    
+        * *Acceptance Criteria:* 
+         - Automatic notification sent to FIN-INS module.
+         - Notification includes: patient ID, name, expected discharge date.
+         - Uses patient data from Module 1.
+        
+        * *GitHub Issue:* #1, #2, #3, #5
+
 
 
 #### 3.2.2 Feature: Patient Admission & Placement Validation
