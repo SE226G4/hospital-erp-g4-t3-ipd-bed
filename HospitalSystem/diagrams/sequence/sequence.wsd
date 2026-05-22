@@ -12,30 +12,106 @@ participant "Finance System" as Finance
 Receptionist -> System : Request Patient Admission
 
 System -> Bed : Check Bed Availability
-Bed --> System : Available
 
-System -> Room : Check Room Readiness
-Room --> System : Ready
+alt Bed Available
 
-System -> Bed : Assign Patient To Bed
-System -> Bed : Update Status To Occupied
+    Bed --> System : Available
 
-System --> Receptionist : Admission Successful
+    System -> Bed : Check Bed Suitability
+
+    alt Bed Suitable
+
+        Bed --> System : Suitable
+
+        System -> Room : Check Room Readiness
+
+        alt Room Ready
+
+            Room --> System : Ready
+
+            System -> Bed : Assign Patient To Bed
+
+            System -> Bed : Update Status To Busy
+
+            System --> Receptionist : Admission Successful
+
+        else Room Not Ready
+
+            Room --> System : Not Ready
+
+            System --> Receptionist : Reject Admission Request
+
+        end
+
+    else Bed Not Suitable
+
+        Bed --> System : Not Suitable
+
+        System --> Receptionist : Reject Admission Request
+
+    end
+
+else Bed Not Available
+
+    Bed --> System : Busy / Cleaning
+
+    System --> Receptionist : Reject Admission Request
+
+end
+
 
 == Transfer Patient ==
 
 Receptionist -> System : Transfer Patient
 
 System -> Bed : Check New Bed Availability
-Bed --> System : Available
 
-System -> Room : Check New Room Readiness
-Room --> System : Ready
+alt New Bed Available
 
-System -> Bed : Set Old Bed To Cleaning
-System -> Bed : Set New Bed To Occupied
+    Bed --> System : Available
 
-System --> Receptionist : Transfer Successful
+    System -> Bed : Check New Bed Suitability
+
+    alt New Bed Suitable
+
+        Bed --> System : Suitable
+
+        System -> Room : Check New Room Readiness
+
+        alt New Room Ready
+
+            Room --> System : Ready
+
+            System -> Bed : Set Old Bed To Cleaning
+
+            System -> Bed : Set New Bed To Busy
+
+            System --> Receptionist : Transfer Successful
+
+        else New Room Not Ready
+
+            Room --> System : Not Ready
+
+            System --> Receptionist : Transfer Rejected
+
+        end
+
+    else New Bed Not Suitable
+
+        Bed --> System : Not Suitable
+
+        System --> Receptionist : Transfer Rejected
+
+    end
+
+else New Bed Not Available
+
+    Bed --> System : Busy / Cleaning
+
+    System --> Receptionist : Transfer Rejected
+
+end
+
 
 == Discharge Notification ==
 
