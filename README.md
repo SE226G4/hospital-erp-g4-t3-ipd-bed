@@ -24,10 +24,10 @@ This module is responsible for the digital management of hospital bed inventory 
 
 ## 🚀 Analysis & Design Progress
 - [x] **Requirement Elicitation:** Completed list of FRs/NFRs.
-- [ ] **UML Behavioral Diagrams:** Use Case and Activity Diagrams.
-- [ ] **UML Structural Diagrams:** ERD and Class Diagrams.
-- [ ] **Dynamic Modeling:** Sequence Diagrams for core processes.
-- [ ] **Interface Design:** Low-fidelity Wireframes.
+- [x] **UML Behavioral Diagrams:** Use Case and Activity Diagrams.
+- [x] **UML Structural Diagrams:** ERD and Class Diagrams.
+- [x] **Dynamic Modeling:** Sequence Diagrams for core processes.
+- [x] **Interface Design:** Low-fidelity Wireframes.
 
 ---
 
