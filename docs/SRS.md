@@ -200,19 +200,13 @@ Stay_Records Table: A junction table linking Patient_ID (from Module 1) to Bed_I
 ## 4. Appendices
 ### Appendix A: Glossary & Models
 
-System Actors
-​The system interacts with both human users and external systems. Based on the Use Case Diagram, the actors are defined as follows:
+* **Components Diagram:**
 
-​Ward Supervisor: A primary human actor responsible for overseeing ward operations. This user configuration allows managing bed and room data, as well as viewing real-time bed occupancy and sanitation status.
-
-​Bed Manager: A primary human actor responsible for front-line operational workflows. This user handles patient Check-In, Check-Out, and the physical assignment of beds to incoming patients based on medical criteria.
-
-​System (Internal Automation): An automated background actor responsible for verifying medical compatibility, enforcing ward capacity constraints, and recording all operational bed movements in the system logs.
-
-​Finance Module (External System): A supporting system actor that acts as the receiver for automated payment and discharge notifications triggered during the check-out workflow.
+<img width="2162" height="1227" alt="Component Diagram(PID) (1)" src="https://github.com/user-attachments/assets/891911bd-0b1d-45cc-b78c-7276678573eb" />
+[link to figma](https://www.figma.com/design/8PRk7D8kxsTtLTvsRspmvB/%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D9%87%D9%86%D8%AF%D8%B3%D8%A9?node-id=40-25&t=39cKEHDXS5M909LG-1)
 
 
-use case diagram:
+* **Use case diagram**
 <img width="1472" height="704" alt="use case diagram" src="https://github.com/user-attachments/assets/c6a02daf-3d33-48e8-903a-fda02c1470f2" />
 
 
@@ -223,7 +217,9 @@ Ward: A specific section of the hospital (e.g., ICU, Pediatric, General).
 ERD: (Entity-Relationship Diagram) showing the links between Beds, Wards, and Stay_Records (referencing Patient_ID from Module 1).
 
 DFD: (Data Flow Diagram) illustrating how patient data flows from Admission (Module 1) to Bed Management, then to Finance (Module 2).
+
 <img width="1579" height="782" alt="hospitalizationBedERD" src="https://github.com/user-attachments/assets/87cc6860-4c9f-4c9e-a5bf-4b92a25e269f" />
+
 draw.io
 ### Appendix B: GitHub Traceability Checklist
 * **Instruction for Team Members:** Before submitting this SRS, ensure that:
