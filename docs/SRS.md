@@ -200,14 +200,14 @@ Stay_Records Table: A junction table linking Patient_ID (from Module 1) to Bed_I
 ## 4. Appendices
 ### Appendix A: Glossary & Models
 ossary: * Bed Assignment: The process of linking a patient to a specific physical bed.
-https://drive.google.com/file/d/1GvLCvsyq6ha7V_7F-xJdZVBQeVMEZSct/view?usp=sharing
-draw.io
+
 Ward: A specific section of the hospital (e.g., ICU, Pediatric, General).
 
 ERD: (Entity-Relationship Diagram) showing the links between Beds, Wards, and Stay_Records (referencing Patient_ID from Module 1).
 
 DFD: (Data Flow Diagram) illustrating how patient data flows from Admission (Module 1) to Bed Management, then to Finance (Module 2).
-
+<img width="1579" height="782" alt="hospitalizationBedERD" src="https://github.com/user-attachments/assets/87cc6860-4c9f-4c9e-a5bf-4b92a25e269f" />
+draw.io
 ### Appendix B: GitHub Traceability Checklist
 * **Instruction for Team Members:** Before submitting this SRS, ensure that:
   * [ ] Every User Story in Section 3.2 has a corresponding GitHub Issue.
