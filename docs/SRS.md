@@ -211,19 +211,12 @@ Stay_Records Table: A junction table linking Patient_ID (from Module 1) to Bed_I
 <img width="1472" height="704" alt="use case diagram" src="https://github.com/user-attachments/assets/c6a02daf-3d33-48e8-903a-fda02c1470f2" />
 
 
-ossary: * Bed Assignment: The process of linking a patient to a specific physical bed.
-
-Ward: A specific section of the hospital (e.g., ICU, Pediatric, General).
-
-ERD: (Entity-Relationship Diagram) showing the links between Beds, Wards, and Stay_Records (referencing Patient_ID from Module 1).
-
-DFD: (Data Flow Diagram) illustrating how patient data flows from Admission (Module 1) to Bed Management, then to Finance (Module 2).
-
+* **ERD:**
 <img width="1579" height="782" alt="hospitalizationBedERD" src="https://github.com/user-attachments/assets/87cc6860-4c9f-4c9e-a5bf-4b92a25e269f" />
 
-draw.io
+
 ### Appendix B: GitHub Traceability Checklist
 * **Instruction for Team Members:** Before submitting this SRS, ensure that:
-  * [ ] Every User Story in Section 3.2 has a corresponding GitHub Issue.
-  * [ ] Every GitHub Issue has an appropriate label (e.g., `enhancement`, `requirement`).
-  * [ ] Pull Requests reference the Issue IDs (e.g., `Closes #12`). 
+  * [x] Every User Story in Section 3.2 has a corresponding GitHub Issue.
+  * [x] Every GitHub Issue has an appropriate label (e.g., `enhancement`, `requirement`).
+  * [x] Pull Requests reference the Issue IDs (e.g., `Closes #12`). 
