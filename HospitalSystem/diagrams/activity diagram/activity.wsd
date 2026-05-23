@@ -1,0 +1,58 @@
+@startuml activity
+skinparam BackgroundColor #FFFFFF
+skinparam Shadowing false
+skinparam RoundCorner 10
+
+skinparam Activity {
+    BackgroundColor #E3F2FD
+    BorderColor #1565C0
+    FontColor #0D47A1
+    
+    DiamondBackgroundColor #FFF9C4
+    DiamondBorderColor #F57F17
+    DiamondFontColor #5D4037
+}
+
+|Admission & Medical Coding - Module 1|
+start
+:Verify Patient Data & Risks Profile;
+
+|Inpatient & Bed Management - Module 3|
+:Request Patient Admission to Ward;
+
+if (Admission: Is there a suitable & available bed?) then (Yes)
+    :Reserve Bed & Change Status to Occupied;
+    :Assign Patient to Room & Bed;
+    
+    :Monitor Patient Status in Ward;
+    
+    if (Is Transfer to Another Room Required?) then (Yes)
+        if (Transfer: Is the new bed suitable & ready?) then (Yes)
+            :Change Old Bed Status to Cleaning;
+            :Transfer Patient & Change New Bed Status to Occupied;
+        else (No)
+            :Reject Transfer & Keep in Current Room;
+        endif
+        :Continue Monitoring Patient;
+    else (No)
+        :Set Expected Discharge Date;
+        :Send Auto-Notification to Finance 24h Before;
+        
+        |Finance & Insurance - Module 2|
+        :Receive Notification & Prepare Final Invoice;
+        
+        |Inpatient & Bed Management - Module 3|
+        :Complete Patient Discharge Procedures;
+        :Change Bed Status to Cleaning;
+        :Clean and Prepare the Bed;
+        :Change Bed Status to Available;
+    endif
+
+    stop
+
+else (No)
+    :Temporarily Reject Admission;
+    stop
+endif
+
+@enduml
