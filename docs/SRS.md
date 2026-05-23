@@ -76,6 +76,19 @@ Patient Placement & Transfer: Handling the digital movement of patients between 
 Notification System: Generating automated alerts for the Finance module regarding discharge and stay costs.
 Reporting: Providing occupancy and vacancy rate reports for hospital management.
 
+
+## 2.2.1 System Actors
+​The system interacts with both human users and external systems. Based on the Use Case Diagram, the actors are defined as follows:
+
+​Ward Supervisor: A primary human actor responsible for overseeing ward operations. This user configuration allows managing bed and room data, as well as viewing real-time bed occupancy and sanitation status.
+
+​Bed Manager: A primary human actor responsible for front-line operational workflows. This user handles patient Check-In, Check-Out, and the physical assignment of beds to incoming patients based on medical criteria.
+
+​System (Internal Automation): An automated background actor responsible for verifying medical compatibility, enforcing ward capacity constraints, and recording all operational bed movements in the system logs.
+
+​Finance Module (External System): A supporting system actor that acts as the receiver for automated payment and discharge notifications triggered during the check-out workflow.
+
+
 ### 2.3 User Characteristics
 Receptionist/Admission Officer: (Medium technical expertise) Responsible for assigning beds to new patients.
 Ward Nurse: (Medium technical expertise) Responsible for updating bed cleaning status and patient transfers.
