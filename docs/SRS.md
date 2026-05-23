@@ -199,6 +199,11 @@ Stay_Records Table: A junction table linking Patient_ID (from Module 1) to Bed_I
 
 ## 4. Appendices
 ### Appendix A: Glossary & Models
+
+use case diagram:
+<img width="1472" height="704" alt="use case diagram" src="https://github.com/user-attachments/assets/c6a02daf-3d33-48e8-903a-fda02c1470f2" />
+
+
 ossary: * Bed Assignment: The process of linking a patient to a specific physical bed.
 
 Ward: A specific section of the hospital (e.g., ICU, Pediatric, General).
