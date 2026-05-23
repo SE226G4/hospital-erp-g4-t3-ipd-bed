@@ -212,9 +212,11 @@ Stay_Records Table: A junction table linking Patient_ID (from Module 1) to Bed_I
 [link to figma](https://app.diagrams.net/?src=about)
 
 
+
 * **ERD:**
 <img width="1579" height="782" alt="hospitalizationBedERD" src="https://github.com/user-attachments/assets/87cc6860-4c9f-4c9e-a5bf-4b92a25e269f" />
-[link]()
+[link to figma]()
+
 
 
 ### Appendix B: GitHub Traceability Checklist
