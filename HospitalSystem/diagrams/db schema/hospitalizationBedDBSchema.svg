@@ -1,0 +1,367 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="368pt" height="704pt" viewBox="0.00 0.00 368.00 704.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 700)">
+<title>model_graph</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-700 364.15,-700 364.15,4 -4,4"/>
+<!-- bed_models_Ward -->
+<g id="node1" class="node">
+<title>bed_models_Ward</title>
+<polygon fill="white" stroke="none" points="12,-4 12,-82.4 156.2,-82.4 156.2,-4 12,-4"/>
+<polygon fill="#1b563f" stroke="none" points="13,-59.4 13,-81.4 155.2,-81.4 155.2,-59.4 13,-59.4"/>
+<text xml:space="preserve" text-anchor="start" x="57.6" y="-68.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="65.6" y="-68.4" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white">    Ward    </text>
+<text xml:space="preserve" text-anchor="start" x="15" y="-51.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="23" y="-51.2" font-family="Roboto" font-weight="bold" font-size="8.00">id</text>
+<text xml:space="preserve" text-anchor="start" x="29.68" y="-51.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="72.32" y="-51.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="80.32" y="-51.2" font-family="Roboto" font-weight="bold" font-size="8.00">BigAutoField</text>
+<text xml:space="preserve" text-anchor="start" x="126.1" y="-51.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="15" y="-37.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="23" y="-37.6" font-family="Roboto" font-size="8.00">capacity</text>
+<text xml:space="preserve" text-anchor="start" x="49.65" y="-37.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="72.32" y="-37.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="80.32" y="-37.6" font-family="Roboto" font-size="8.00">PositiveIntegerField</text>
+<text xml:space="preserve" text-anchor="start" x="145.2" y="-37.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="15" y="-24" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="23" y="-24" font-family="Roboto" font-size="8.00">ward_name</text>
+<text xml:space="preserve" text-anchor="start" x="60.32" y="-24" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="72.32" y="-24" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="80.32" y="-24" font-family="Roboto" font-size="8.00">CharField</text>
+<text xml:space="preserve" text-anchor="start" x="112.32" y="-24" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="15" y="-10.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="23" y="-10.4" font-family="Roboto" font-size="8.00">ward_type</text>
+<text xml:space="preserve" text-anchor="start" x="56.77" y="-10.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="72.32" y="-10.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="80.32" y="-10.4" font-family="Roboto" font-size="8.00">CharField</text>
+<text xml:space="preserve" text-anchor="start" x="112.32" y="-10.4" font-family="Roboto" font-size="8.00">    </text>
+<polygon fill="none" stroke="black" points="12,-4 12,-82.4 156.2,-82.4 156.2,-4 12,-4"/>
+</g>
+<!-- bed_models_Room -->
+<g id="node2" class="node">
+<title>bed_models_Room</title>
+<polygon fill="white" stroke="none" points="8,-136 8,-214.4 160.2,-214.4 160.2,-136 8,-136"/>
+<polygon fill="#1b563f" stroke="none" points="9,-191.4 9,-213.4 159.2,-213.4 159.2,-191.4 9,-191.4"/>
+<text xml:space="preserve" text-anchor="start" x="57.33" y="-200.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="65.33" y="-200.4" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white">    Room    </text>
+<text xml:space="preserve" text-anchor="start" x="11" y="-183.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="19" y="-183.2" font-family="Roboto" font-weight="bold" font-size="8.00">id</text>
+<text xml:space="preserve" text-anchor="start" x="25.67" y="-183.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="76.32" y="-183.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="84.32" y="-183.2" font-family="Roboto" font-weight="bold" font-size="8.00">BigAutoField</text>
+<text xml:space="preserve" text-anchor="start" x="130.11" y="-183.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="11" y="-169.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="19" y="-169.6" font-family="Roboto" font-weight="bold" font-size="8.00">ward</text>
+<text xml:space="preserve" text-anchor="start" x="36.78" y="-169.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="76.32" y="-169.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="84.32" y="-169.6" font-family="Roboto" font-weight="bold" font-size="8.00">ForeignKey (id)</text>
+<text xml:space="preserve" text-anchor="start" x="138.76" y="-169.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="11" y="-156" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="19" y="-156" font-family="Roboto" font-size="8.00">floor</text>
+<text xml:space="preserve" text-anchor="start" x="34.55" y="-156" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="76.32" y="-156" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="84.32" y="-156" font-family="Roboto" font-size="8.00">PositiveIntegerField</text>
+<text xml:space="preserve" text-anchor="start" x="149.2" y="-156" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="11" y="-142.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="19" y="-142.4" font-family="Roboto" font-size="8.00">room_number</text>
+<text xml:space="preserve" text-anchor="start" x="64.32" y="-142.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="76.32" y="-142.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="84.32" y="-142.4" font-family="Roboto" font-size="8.00">CharField</text>
+<text xml:space="preserve" text-anchor="start" x="116.32" y="-142.4" font-family="Roboto" font-size="8.00">    </text>
+<polygon fill="none" stroke="black" points="8,-136 8,-214.4 160.2,-214.4 160.2,-136 8,-136"/>
+</g>
+<!-- bed_models_Room&#45;&gt;bed_models_Ward -->
+<g id="edge1" class="edge">
+<title>bed_models_Room-&gt;bed_models_Ward</title>
+<path fill="none" stroke="red" d="M84.1,-123.47C84.1,-111.05 84.1,-97.91 84.1,-85.97"/>
+<ellipse fill="red" stroke="red" cx="84.1" cy="-127.85" rx="4" ry="4"/>
+<text xml:space="preserve" text-anchor="middle" x="106.76" y="-106.8" font-family="Roboto" font-size="8.00"> ward (rooms)</text>
+</g>
+<!-- bed_models_Bed -->
+<g id="node3" class="node">
+<title>bed_models_Bed</title>
+<polygon fill="white" stroke="none" points="13.45,-274.8 13.45,-366.8 154.76,-366.8 154.76,-274.8 13.45,-274.8"/>
+<polygon fill="#1b563f" stroke="none" points="14.45,-343.8 14.45,-365.8 153.76,-365.8 153.76,-343.8 14.45,-343.8"/>
+<text xml:space="preserve" text-anchor="start" x="61.77" y="-352.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="69.77" y="-352.8" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white">    Bed    </text>
+<text xml:space="preserve" text-anchor="start" x="16.45" y="-335.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="24.45" y="-335.6" font-family="Roboto" font-weight="bold" font-size="8.00">id</text>
+<text xml:space="preserve" text-anchor="start" x="31.12" y="-335.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="81.32" y="-335.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="89.32" y="-335.6" font-family="Roboto" font-weight="bold" font-size="8.00">BigAutoField</text>
+<text xml:space="preserve" text-anchor="start" x="135.1" y="-335.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="16.45" y="-322" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="24.45" y="-322" font-family="Roboto" font-weight="bold" font-size="8.00">room</text>
+<text xml:space="preserve" text-anchor="start" x="42.66" y="-322" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="81.32" y="-322" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="89.32" y="-322" font-family="Roboto" font-weight="bold" font-size="8.00">ForeignKey (id)</text>
+<text xml:space="preserve" text-anchor="start" x="143.76" y="-322" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="16.45" y="-308.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="24.45" y="-308.4" font-family="Roboto" font-size="8.00">bed_number</text>
+<text xml:space="preserve" text-anchor="start" x="64.44" y="-308.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="81.32" y="-308.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="89.32" y="-308.4" font-family="Roboto" font-size="8.00">CharField</text>
+<text xml:space="preserve" text-anchor="start" x="121.32" y="-308.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="16.45" y="-294.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="24.45" y="-294.8" font-family="Roboto" font-size="8.00">bed_type</text>
+<text xml:space="preserve" text-anchor="start" x="53.77" y="-294.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="81.32" y="-294.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="89.32" y="-294.8" font-family="Roboto" font-size="8.00">CharField</text>
+<text xml:space="preserve" text-anchor="start" x="121.32" y="-294.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="16.45" y="-281.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="24.45" y="-281.2" font-family="Roboto" font-size="8.00">current_status</text>
+<text xml:space="preserve" text-anchor="start" x="69.32" y="-281.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="81.32" y="-281.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="89.32" y="-281.2" font-family="Roboto" font-size="8.00">CharField</text>
+<text xml:space="preserve" text-anchor="start" x="121.32" y="-281.2" font-family="Roboto" font-size="8.00">    </text>
+<polygon fill="none" stroke="black" points="13.45,-274.8 13.45,-366.8 154.76,-366.8 154.76,-274.8 13.45,-274.8"/>
+</g>
+<!-- bed_models_Bed&#45;&gt;bed_models_Room -->
+<g id="edge2" class="edge">
+<title>bed_models_Bed-&gt;bed_models_Room</title>
+<path fill="none" stroke="red" d="M84.1,-262.55C84.1,-247.69 84.1,-231.96 84.1,-218.05"/>
+<ellipse fill="red" stroke="red" cx="84.1" cy="-266.68" rx="4" ry="4"/>
+<text xml:space="preserve" text-anchor="middle" x="104.54" y="-238.8" font-family="Roboto" font-size="8.00"> room (beds)</text>
+</g>
+<!-- bed_models_BedStatusLog -->
+<g id="node4" class="node">
+<title>bed_models_BedStatusLog</title>
+<polygon fill="white" stroke="none" points="17.67,-434 17.67,-526 150.53,-526 150.53,-434 17.67,-434"/>
+<polygon fill="#1b563f" stroke="none" points="18.67,-503 18.67,-525 149.53,-525 149.53,-503 18.67,-503"/>
+<text xml:space="preserve" text-anchor="start" x="40.09" y="-512" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="48.09" y="-512" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white">    BedStatusLog    </text>
+<text xml:space="preserve" text-anchor="start" x="20.67" y="-494.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="28.67" y="-494.8" font-family="Roboto" font-weight="bold" font-size="8.00">id</text>
+<text xml:space="preserve" text-anchor="start" x="35.34" y="-494.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="77.1" y="-494.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="85.1" y="-494.8" font-family="Roboto" font-weight="bold" font-size="8.00">BigAutoField</text>
+<text xml:space="preserve" text-anchor="start" x="130.88" y="-494.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="20.67" y="-481.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="28.67" y="-481.2" font-family="Roboto" font-weight="bold" font-size="8.00">bed</text>
+<text xml:space="preserve" text-anchor="start" x="41.12" y="-481.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="77.1" y="-481.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="85.1" y="-481.2" font-family="Roboto" font-weight="bold" font-size="8.00">ForeignKey (id)</text>
+<text xml:space="preserve" text-anchor="start" x="139.53" y="-481.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="20.67" y="-467.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="28.67" y="-467.6" font-family="Roboto" font-size="8.00" fill="#7b7b7b">changed_at</text>
+<text xml:space="preserve" text-anchor="start" x="65.1" y="-467.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="77.1" y="-467.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="85.1" y="-467.6" font-family="Roboto" font-size="8.00" fill="#7b7b7b">DateTimeField</text>
+<text xml:space="preserve" text-anchor="start" x="133.53" y="-467.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="20.67" y="-454" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="28.67" y="-454" font-family="Roboto" font-size="8.00">new_status</text>
+<text xml:space="preserve" text-anchor="start" x="64.22" y="-454" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="77.1" y="-454" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="85.1" y="-454" font-family="Roboto" font-size="8.00">CharField</text>
+<text xml:space="preserve" text-anchor="start" x="117.09" y="-454" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="20.67" y="-440.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="28.67" y="-440.4" font-family="Roboto" font-size="8.00">old_status</text>
+<text xml:space="preserve" text-anchor="start" x="61.12" y="-440.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="77.1" y="-440.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="85.1" y="-440.4" font-family="Roboto" font-size="8.00">CharField</text>
+<text xml:space="preserve" text-anchor="start" x="117.09" y="-440.4" font-family="Roboto" font-size="8.00">    </text>
+<polygon fill="none" stroke="black" points="17.67,-434 17.67,-526 150.53,-526 150.53,-434 17.67,-434"/>
+</g>
+<!-- bed_models_BedStatusLog&#45;&gt;bed_models_Bed -->
+<g id="edge3" class="edge">
+<title>bed_models_BedStatusLog-&gt;bed_models_Bed</title>
+<path fill="none" stroke="red" d="M84.1,-421.53C84.1,-404.84 84.1,-386.76 84.1,-370.65"/>
+<ellipse fill="red" stroke="red" cx="84.1" cy="-425.62" rx="4" ry="4"/>
+<text xml:space="preserve" text-anchor="middle" x="112.32" y="-398" font-family="Roboto" font-size="8.00"> bed (status_logs)</text>
+</g>
+<!-- bed_models_Patient -->
+<g id="node5" class="node">
+<title>bed_models_Patient</title>
+<polygon fill="white" stroke="none" points="203.66,-136 203.66,-214.4 334.54,-214.4 334.54,-136 203.66,-136"/>
+<polygon fill="#1b563f" stroke="none" points="204.66,-191.4 204.66,-213.4 333.54,-213.4 333.54,-191.4 204.66,-191.4"/>
+<text xml:space="preserve" text-anchor="start" x="239.83" y="-200.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="247.83" y="-200.4" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white">    Patient    </text>
+<text xml:space="preserve" text-anchor="start" x="206.66" y="-183.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="214.66" y="-183.2" font-family="Roboto" font-weight="bold" font-size="8.00">id</text>
+<text xml:space="preserve" text-anchor="start" x="221.33" y="-183.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="269.76" y="-183.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="277.76" y="-183.2" font-family="Roboto" font-weight="bold" font-size="8.00">BigAutoField</text>
+<text xml:space="preserve" text-anchor="start" x="323.54" y="-183.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="206.66" y="-169.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="214.66" y="-169.6" font-family="Roboto" font-size="8.00">date_of_birth</text>
+<text xml:space="preserve" text-anchor="start" x="257.76" y="-169.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="269.76" y="-169.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="277.76" y="-169.6" font-family="Roboto" font-size="8.00">DateField</text>
+<text xml:space="preserve" text-anchor="start" x="309.31" y="-169.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="206.66" y="-156" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="214.66" y="-156" font-family="Roboto" font-size="8.00">full_name</text>
+<text xml:space="preserve" text-anchor="start" x="247.1" y="-156" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="269.76" y="-156" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="277.76" y="-156" font-family="Roboto" font-size="8.00">CharField</text>
+<text xml:space="preserve" text-anchor="start" x="309.76" y="-156" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="206.66" y="-142.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="214.66" y="-142.4" font-family="Roboto" font-size="8.00">gender</text>
+<text xml:space="preserve" text-anchor="start" x="236.43" y="-142.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="269.76" y="-142.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="277.76" y="-142.4" font-family="Roboto" font-size="8.00">CharField</text>
+<text xml:space="preserve" text-anchor="start" x="309.76" y="-142.4" font-family="Roboto" font-size="8.00">    </text>
+<polygon fill="none" stroke="black" points="203.66,-136 203.66,-214.4 334.54,-214.4 334.54,-136 203.66,-136"/>
+</g>
+<!-- bed_models_Admission -->
+<g id="node6" class="node">
+<title>bed_models_Admission</title>
+<polygon fill="white" stroke="none" points="188.68,-268 188.68,-373.6 349.53,-373.6 349.53,-268 188.68,-268"/>
+<polygon fill="#1b563f" stroke="none" points="189.68,-350.6 189.68,-372.6 348.53,-372.6 348.53,-350.6 189.68,-350.6"/>
+<text xml:space="preserve" text-anchor="start" x="232.59" y="-359.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="240.59" y="-359.6" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white">    Admission    </text>
+<text xml:space="preserve" text-anchor="start" x="191.68" y="-342.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="199.68" y="-342.4" font-family="Roboto" font-weight="bold" font-size="8.00">id</text>
+<text xml:space="preserve" text-anchor="start" x="206.35" y="-342.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="276.09" y="-342.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="284.09" y="-342.4" font-family="Roboto" font-weight="bold" font-size="8.00">BigAutoField</text>
+<text xml:space="preserve" text-anchor="start" x="329.88" y="-342.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="191.68" y="-328.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="199.68" y="-328.8" font-family="Roboto" font-weight="bold" font-size="8.00">patient</text>
+<text xml:space="preserve" text-anchor="start" x="223.68" y="-328.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="276.09" y="-328.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="284.09" y="-328.8" font-family="Roboto" font-weight="bold" font-size="8.00">ForeignKey (id)</text>
+<text xml:space="preserve" text-anchor="start" x="338.53" y="-328.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="191.68" y="-315.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="199.68" y="-315.2" font-family="Roboto" font-size="8.00">admission_date</text>
+<text xml:space="preserve" text-anchor="start" x="249.45" y="-315.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="276.09" y="-315.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="284.09" y="-315.2" font-family="Roboto" font-size="8.00">DateField</text>
+<text xml:space="preserve" text-anchor="start" x="315.64" y="-315.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="191.68" y="-301.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="199.68" y="-301.6" font-family="Roboto" font-size="8.00">admission_status</text>
+<text xml:space="preserve" text-anchor="start" x="254.34" y="-301.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="276.09" y="-301.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="284.09" y="-301.6" font-family="Roboto" font-size="8.00">CharField</text>
+<text xml:space="preserve" text-anchor="start" x="316.09" y="-301.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="191.68" y="-288" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="199.68" y="-288" font-family="Roboto" font-size="8.00">required_bed_type</text>
+<text xml:space="preserve" text-anchor="start" x="259.65" y="-288" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="276.09" y="-288" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="284.09" y="-288" font-family="Roboto" font-size="8.00">CharField</text>
+<text xml:space="preserve" text-anchor="start" x="316.09" y="-288" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="191.68" y="-274.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="199.68" y="-274.4" font-family="Roboto" font-size="8.00">required_ward_type</text>
+<text xml:space="preserve" text-anchor="start" x="264.09" y="-274.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="276.09" y="-274.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="284.09" y="-274.4" font-family="Roboto" font-size="8.00">CharField</text>
+<text xml:space="preserve" text-anchor="start" x="316.09" y="-274.4" font-family="Roboto" font-size="8.00">    </text>
+<polygon fill="none" stroke="black" points="188.68,-268 188.68,-373.6 349.53,-373.6 349.53,-268 188.68,-268"/>
+</g>
+<!-- bed_models_Admission&#45;&gt;bed_models_Patient -->
+<g id="edge4" class="edge">
+<title>bed_models_Admission-&gt;bed_models_Patient</title>
+<path fill="none" stroke="blue" d="M269.1,-255.58C269.1,-242.9 269.1,-229.91 269.1,-218.21"/>
+<ellipse fill="blue" stroke="blue" cx="269.1" cy="-259.78" rx="4" ry="4"/>
+<text xml:space="preserve" text-anchor="middle" x="302.43" y="-238.8" font-family="Roboto" font-size="8.00"> patient (admissions)</text>
+</g>
+<!-- bed_models_Hospitalization -->
+<g id="node7" class="node">
+<title>bed_models_Hospitalization</title>
+<polygon fill="white" stroke="none" points="186.68,-427.2 186.68,-532.8 347.53,-532.8 347.53,-427.2 186.68,-427.2"/>
+<polygon fill="#1b563f" stroke="none" points="187.68,-509.8 187.68,-531.8 346.53,-531.8 346.53,-509.8 187.68,-509.8"/>
+<text xml:space="preserve" text-anchor="start" x="220.6" y="-518.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="228.6" y="-518.8" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white">    Hospitalization    </text>
+<text xml:space="preserve" text-anchor="start" x="189.68" y="-501.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="197.68" y="-501.6" font-family="Roboto" font-weight="bold" font-size="8.00">id</text>
+<text xml:space="preserve" text-anchor="start" x="204.35" y="-501.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="274.09" y="-501.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="282.09" y="-501.6" font-family="Roboto" font-weight="bold" font-size="8.00">BigAutoField</text>
+<text xml:space="preserve" text-anchor="start" x="327.88" y="-501.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="189.68" y="-488" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="197.68" y="-488" font-family="Roboto" font-weight="bold" font-size="8.00">admission</text>
+<text xml:space="preserve" text-anchor="start" x="231.91" y="-488" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="274.09" y="-488" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="282.09" y="-488" font-family="Roboto" font-weight="bold" font-size="8.00">ForeignKey (id)</text>
+<text xml:space="preserve" text-anchor="start" x="336.53" y="-488" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="189.68" y="-474.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="197.68" y="-474.4" font-family="Roboto" font-weight="bold" font-size="8.00">bed</text>
+<text xml:space="preserve" text-anchor="start" x="210.12" y="-474.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="274.09" y="-474.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="282.09" y="-474.4" font-family="Roboto" font-weight="bold" font-size="8.00">ForeignKey (id)</text>
+<text xml:space="preserve" text-anchor="start" x="336.53" y="-474.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="189.68" y="-460.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="197.68" y="-460.8" font-family="Roboto" font-size="8.00">check_in_datetime</text>
+<text xml:space="preserve" text-anchor="start" x="258.09" y="-460.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="274.09" y="-460.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="282.09" y="-460.8" font-family="Roboto" font-size="8.00">DateTimeField</text>
+<text xml:space="preserve" text-anchor="start" x="330.52" y="-460.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="189.68" y="-447.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="197.68" y="-447.2" font-family="Roboto" font-size="8.00" fill="#7b7b7b">check_out_datetime</text>
+<text xml:space="preserve" text-anchor="start" x="262.09" y="-447.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="274.09" y="-447.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="282.09" y="-447.2" font-family="Roboto" font-size="8.00" fill="#7b7b7b">DateTimeField</text>
+<text xml:space="preserve" text-anchor="start" x="330.52" y="-447.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="189.68" y="-433.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="197.68" y="-433.6" font-family="Roboto" font-size="8.00">status</text>
+<text xml:space="preserve" text-anchor="start" x="215.9" y="-433.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="274.09" y="-433.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="282.09" y="-433.6" font-family="Roboto" font-size="8.00">CharField</text>
+<text xml:space="preserve" text-anchor="start" x="314.09" y="-433.6" font-family="Roboto" font-size="8.00">    </text>
+<polygon fill="none" stroke="black" points="186.68,-427.2 186.68,-532.8 347.53,-532.8 347.53,-427.2 186.68,-427.2"/>
+</g>
+<!-- bed_models_Hospitalization&#45;&gt;bed_models_Bed -->
+<g id="edge6" class="edge">
+<title>bed_models_Hospitalization-&gt;bed_models_Bed</title>
+<path fill="none" stroke="blue" d="M195.68,-417.65C177.51,-402.04 158.22,-385.47 140.88,-370.58"/>
+<ellipse fill="blue" stroke="blue" cx="198.91" cy="-420.42" rx="4" ry="4"/>
+<text xml:space="preserve" text-anchor="middle" x="216.64" y="-398" font-family="Roboto" font-size="8.00"> bed (hospitalizations)</text>
+</g>
+<!-- bed_models_Hospitalization&#45;&gt;bed_models_Admission -->
+<g id="edge5" class="edge">
+<title>bed_models_Hospitalization-&gt;bed_models_Admission</title>
+<path fill="none" stroke="blue" d="M267.92,-414.7C268.08,-402.37 268.24,-389.55 268.39,-377.52"/>
+<ellipse fill="blue" stroke="blue" cx="267.86" cy="-419.08" rx="4" ry="4"/>
+<text xml:space="preserve" text-anchor="middle" x="314.16" y="-398" font-family="Roboto" font-size="8.00"> admission (hospitalizations)</text>
+</g>
+<!-- bed_models_HospitalizationService -->
+<g id="node8" class="node">
+<title>bed_models_HospitalizationService</title>
+<polygon fill="white" stroke="none" points="188.55,-586.4 188.55,-692 345.66,-692 345.66,-586.4 188.55,-586.4"/>
+<polygon fill="#1b563f" stroke="none" points="189.55,-669 189.55,-691 344.66,-691 344.66,-669 189.55,-669"/>
+<text xml:space="preserve" text-anchor="start" x="205.05" y="-678" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="213.05" y="-678" font-family="Roboto" font-weight="bold" font-size="10.00" fill="white">    HospitalizationService    </text>
+<text xml:space="preserve" text-anchor="start" x="191.55" y="-660.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="199.55" y="-660.8" font-family="Roboto" font-weight="bold" font-size="8.00">id</text>
+<text xml:space="preserve" text-anchor="start" x="206.22" y="-660.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="261.78" y="-660.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="269.78" y="-660.8" font-family="Roboto" font-weight="bold" font-size="8.00">BigAutoField</text>
+<text xml:space="preserve" text-anchor="start" x="315.56" y="-660.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="191.55" y="-647.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="199.55" y="-647.2" font-family="Roboto" font-weight="bold" font-size="8.00">hospitalization</text>
+<text xml:space="preserve" text-anchor="start" x="249.78" y="-647.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="261.78" y="-647.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="269.78" y="-647.2" font-family="Roboto" font-weight="bold" font-size="8.00">ForeignKey (id)</text>
+<text xml:space="preserve" text-anchor="start" x="324.21" y="-647.2" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="191.55" y="-633.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="199.55" y="-633.6" font-family="Roboto" font-size="8.00">invoice_id</text>
+<text xml:space="preserve" text-anchor="start" x="233.32" y="-633.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="261.78" y="-633.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="269.78" y="-633.6" font-family="Roboto" font-size="8.00">IntegerField</text>
+<text xml:space="preserve" text-anchor="start" x="308.88" y="-633.6" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="191.55" y="-620" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="199.55" y="-620" font-family="Roboto" font-size="8.00">quantity</text>
+<text xml:space="preserve" text-anchor="start" x="225.77" y="-620" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="261.78" y="-620" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="269.78" y="-620" font-family="Roboto" font-size="8.00">PositiveIntegerField</text>
+<text xml:space="preserve" text-anchor="start" x="334.66" y="-620" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="191.55" y="-606.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="199.55" y="-606.4" font-family="Roboto" font-size="8.00">service_id</text>
+<text xml:space="preserve" text-anchor="start" x="232.42" y="-606.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="261.78" y="-606.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="269.78" y="-606.4" font-family="Roboto" font-size="8.00">IntegerField</text>
+<text xml:space="preserve" text-anchor="start" x="308.88" y="-606.4" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="191.55" y="-592.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="199.55" y="-592.8" font-family="Roboto" font-size="8.00">service_price</text>
+<text xml:space="preserve" text-anchor="start" x="242.19" y="-592.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="261.78" y="-592.8" font-family="Roboto" font-size="8.00">    </text>
+<text xml:space="preserve" text-anchor="start" x="269.78" y="-592.8" font-family="Roboto" font-size="8.00">DecimalField</text>
+<text xml:space="preserve" text-anchor="start" x="313.32" y="-592.8" font-family="Roboto" font-size="8.00">    </text>
+<polygon fill="none" stroke="black" points="188.55,-586.4 188.55,-692 345.66,-692 345.66,-586.4 188.55,-586.4"/>
+</g>
+<!-- bed_models_HospitalizationService&#45;&gt;bed_models_Hospitalization -->
+<g id="edge7" class="edge">
+<title>bed_models_HospitalizationService-&gt;bed_models_Hospitalization</title>
+<path fill="none" stroke="blue" d="M267.1,-573.9C267.1,-561.57 267.1,-548.75 267.1,-536.72"/>
+<ellipse fill="blue" stroke="blue" cx="267.1" cy="-578.28" rx="4" ry="4"/>
+<text xml:space="preserve" text-anchor="middle" x="308.2" y="-557.2" font-family="Roboto" font-size="8.00"> hospitalization (services)</text>
+</g>
+</g>
+</svg>
