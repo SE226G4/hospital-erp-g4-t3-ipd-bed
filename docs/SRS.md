@@ -200,7 +200,8 @@ Stay_Records Table: A junction table linking Patient_ID (from Module 1) to Bed_I
 ## 4. Appendices
 ### Appendix A: Glossary & Models
 ossary: * Bed Assignment: The process of linking a patient to a specific physical bed.
-
+https://drive.google.com/file/d/1GvLCvsyq6ha7V_7F-xJdZVBQeVMEZSct/view?usp=sharing
+draw.io
 Ward: A specific section of the hospital (e.g., ICU, Pediatric, General).
 
 ERD: (Entity-Relationship Diagram) showing the links between Beds, Wards, and Stay_Records (referencing Patient_ID from Module 1).
