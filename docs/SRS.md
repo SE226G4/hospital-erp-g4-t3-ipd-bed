@@ -51,7 +51,8 @@ Outbound: Exposes "Bed Availability Status" to Module 5 (Surgery) and Module 6 (
 Reporting: Sends "Stay Duration & Room Grade" data to Module 2 (FIN-INS) for billing.
 
 *   **2.1.2 User Interfaces:
-The UI will feature a Dashboard/Grid View representing the hospital wards.
+🔗 **Interactive UI/UX Prototypes:** 
+* [Click Here to View Full Figma Design & Wireframes](https://www.figma.com/design/podtSf4XC5QLRmak7mDRo9/Wireframe-pro-eng-2?node-id=0-1&t=Am284tAMBpOajXC7-1)The UI will feature a Dashboard/Grid View representing the hospital wards.
 A Color-Coding System will be used (Green: Available, Red: Occupied, Yellow: Under Cleaning).
 The design follows a Minimalist Design System with high contrast to ensure readability for nursing staff in high-pressure environments.
 
