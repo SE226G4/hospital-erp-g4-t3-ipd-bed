@@ -209,6 +209,10 @@ Stay_Records Table: A junction table linking Patient_ID (from Module 1) to Bed_I
 
 [link to figma](https://www.figma.com/design/8PRk7D8kxsTtLTvsRspmvB/%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D9%87%D9%86%D8%AF%D8%B3%D8%A9?node-id=40-25&t=39cKEHDXS5M909LG-1)
 
+* **Logic flow:**
+<img width="729" height="1553" alt="image" src="https://github.com/user-attachments/assets/566e2762-05f3-41df-8f05-08408f4d75fa" />
+[To see more about it click here](https://github.com/SE226G4/hospital-erp-g4-t3-ipd-bed/tree/main/HospitalSystem/diagrams/logic%20flow)
+
 
 * **Use case diagram**
 <img width="1472" height="704" alt="use case diagram" src="https://github.com/user-attachments/assets/c6a02daf-3d33-48e8-903a-fda02c1470f2" />
