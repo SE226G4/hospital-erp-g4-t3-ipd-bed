@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\INFINITY\\.nuget\\packages\\": {}
+    "C:\\Users\\HOME\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\INFINITY\\Desktop\\engineering project\\hospital-erp-g4-t3-ipd-bed\\HospitalSystem\\HospitalSystem.csproj",
+      "projectUniqueName": "C:\\Users\\HOME\\Desktop\\hospital-erp-g4-t3-ipd-bed\\HospitalSystem\\HospitalSystem.csproj",
       "projectName": "HospitalSystem",
-      "projectPath": "C:\\Users\\INFINITY\\Desktop\\engineering project\\hospital-erp-g4-t3-ipd-bed\\HospitalSystem\\HospitalSystem.csproj",
-      "packagesPath": "C:\\Users\\INFINITY\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\INFINITY\\Desktop\\engineering project\\hospital-erp-g4-t3-ipd-bed\\HospitalSystem\\obj\\",
+      "projectPath": "C:\\Users\\HOME\\Desktop\\hospital-erp-g4-t3-ipd-bed\\HospitalSystem\\HospitalSystem.csproj",
+      "packagesPath": "C:\\Users\\HOME\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HOME\\Desktop\\hospital-erp-g4-t3-ipd-bed\\HospitalSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\INFINITY\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\HOME\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
