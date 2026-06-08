@@ -7,9 +7,17 @@
         Patient patient = new Patient
         {
             Id = 1,
-            Name = "Mahmoud",
             RequiredBedType = BedType.ICU
         };
+
+        Room room = new Room
+        {
+            Id = 201,
+            IsReady = true
+        };
+
+        // TC01
+        Console.WriteLine("===== TC01 =====");
 
         Bed bed1 = new Bed
         {
@@ -18,24 +26,42 @@
             Type = BedType.ICU
         };
 
+        system.AssignPatientToBed(patient, bed1);
+
+        // TC02
+        Console.WriteLine("\n===== TC02 =====");
+
         Bed bed2 = new Bed
         {
             Id = 102,
-            Status = BedStatus.Available,
+            Status = BedStatus.Busy,
             Type = BedType.ICU
         };
 
-        // Assign patient
-        system.AssignPatientToBed(
-            patient,
-            bed1
-        );
+        system.AssignPatientToBed(patient, bed2);
 
-        // Transfer patient
-        system.TransferPatient(
-            patient,
-            bed1,
-            bed2
-        );
+        // TC03
+        Console.WriteLine("\n===== TC03 =====");
+
+        Bed bed3 = new Bed
+        {
+            Id = 103,
+            Status = BedStatus.Cleaning,
+            Type = BedType.ICU
+        };
+
+        system.AssignPatientToBed(patient, bed3);
+
+        // TC04
+        Console.WriteLine("\n===== TC04 =====");
+
+        Bed bed4 = new Bed
+        {
+            Id = 104,
+            Status = BedStatus.Available,
+            Type = BedType.Standard
+        };
+
+        system.AssignPatientToBed(patient, bed4);
     }
 }

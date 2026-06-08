@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VRXJON5X1gk=",
+  "dgSpecHash": "wOdz9cVCdRg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\INFINITY\\Desktop\\engineering project\\hospital-erp-g4-t3-ipd-bed\\HospitalSystem\\HospitalSystem.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\INFINITY\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.27\\microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
-    "C:\\Users\\INFINITY\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.27\\microsoft.windowsdesktop.app.ref.8.0.27.nupkg.sha512",
-    "C:\\Users\\INFINITY\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.27\\microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512",
-    "C:\\Users\\INFINITY\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.27\\microsoft.netcore.app.host.win-x64.8.0.27.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\DELL\\Documents\\hospital-erp-g4-t3-ipd-bed\\HospitalSystem\\HospitalSystem.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
