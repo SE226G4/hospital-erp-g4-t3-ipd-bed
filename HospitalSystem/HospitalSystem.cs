@@ -32,36 +32,40 @@ public class HospitalSystem
         );
     }
 
-    public void TransferPatient(
-        Patient patient,
-        Bed currentBed,
-        Bed newBed)
+ public void TransferPatient(
+    Patient patient,
+    Bed currentBed,
+    Bed newBed)
+{
+    if (newBed.Status != BedStatus.Available)
     {
-        if (newBed.Status != BedStatus.Available)
-        {
-            Console.WriteLine(
-                "New bed is not available"
-            );
-            return;
-        }
-
-        // Check new bed suitability
-        if (newBed.Type != patient.RequiredBedType)
-        {
-            Console.WriteLine(
-                "New bed is not suitable"
-            );
-            return;
-        }
-
-        currentBed.Status = BedStatus.Cleaning;
-
-        // Update new bed
-        newBed.Status = BedStatus.Busy;
-
-        Console.WriteLine(
-            $"Patient {patient.Name} transferred " +
-            $"from Bed {currentBed.Id} to Bed {newBed.Id}"
-        );
+        Console.WriteLine("New bed is not available");
+        return;
     }
+
+    if (newBed.Type != patient.RequiredBedType)
+    {
+        Console.WriteLine("New bed is not suitable");
+        return;
+    }
+
+    if (patient == null)
+    {
+        Console.WriteLine("Patient not found");
+        return;
+    }
+
+    if (currentBed == null)
+    {
+        Console.WriteLine("Current bed not found");
+        return;
+    }
+
+    currentBed.Status = BedStatus.Cleaning;
+    newBed.Status = BedStatus.Busy;
+
+    Console.WriteLine(
+        $"Patient {patient.Name} transferred " +
+        $"from Bed {currentBed.Id} to Bed {newBed.Id}");
+}
 }
