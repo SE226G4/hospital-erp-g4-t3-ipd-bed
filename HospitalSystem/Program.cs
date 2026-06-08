@@ -26,7 +26,7 @@
             Type = BedType.ICU
         };
 
-        system.AssignPatientToBed(patient, bed1, room);
+        system.AssignPatientToBed(patient, bed1);
 
         // TC02
         Console.WriteLine("\n===== TC02 =====");
@@ -38,7 +38,7 @@
             Type = BedType.ICU
         };
 
-        system.AssignPatientToBed(patient, bed2, room);
+        system.AssignPatientToBed(patient, bed2);
 
         // TC03
         Console.WriteLine("\n===== TC03 =====");
@@ -50,7 +50,7 @@
             Type = BedType.ICU
         };
 
-        system.AssignPatientToBed(patient, bed3, room);
+        system.AssignPatientToBed(patient, bed3);
 
         // TC04
         Console.WriteLine("\n===== TC04 =====");
@@ -62,6 +62,6 @@
             Type = BedType.Standard
         };
 
-        system.AssignPatientToBed(patient, bed4, room);
+        system.AssignPatientToBed(patient, bed4);
     }
 }
