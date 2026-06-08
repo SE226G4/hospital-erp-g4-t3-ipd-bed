@@ -3,34 +3,32 @@ using System;
 public class HospitalSystem
 {
     // Assign patient to bed
-    public void AssignPatientToBed(
-        Patient patient,
-        Bed bed)
+public void AssignPatientToBed(Patient patient, Bed bed, Room room)
+{
+    if (bed.Status != BedStatus.Available)
     {
-        if (bed.Status != BedStatus.Available)
-        {
-            Console.WriteLine(
-                "Bed is not available"
-            );
-            return;
-        }
-
-        // Check bed suitability
-        if (bed.Type != patient.RequiredBedType)
-        {
-            Console.WriteLine(
-                "Bed is not suitable for patient condition"
-            );
-            return;
-        }
-
-        // Assign patient
-        bed.Status = BedStatus.Busy;
-
-        Console.WriteLine(
-            $"Patient {patient.Name} assigned to Bed {bed.Id}"
-        );
+        Console.WriteLine("Bed is not available");
+        return;
     }
+
+    if (bed.Type != patient.RequiredBedType)
+    {
+        Console.WriteLine("Bed is not suitable");
+        return;
+    }
+
+    if (!room.IsReady)
+    {
+        Console.WriteLine("Room is not ready");
+        return;
+    }
+
+    bed.Status = BedStatus.Busy;
+
+    Console.WriteLine(
+        $"Patient {patient.Id} assigned to Bed {bed.Id}"
+    );
+}
 
     public void TransferPatient(
         Patient patient,
